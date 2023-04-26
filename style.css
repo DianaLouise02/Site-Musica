@@ -1,8 +1,28 @@
 header {
     background-color: rgb(31, 4, 31);
+    text-decoration-style: none;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
     display: flex;
-   justify-content: space-between;
-   
+}
+
+nav{
+text-align: center;
+background-color:rgb(31, 4, 31);
+
+}
+
+nav ul li{
+   list-style-type: none;
+   border: solid;
+   border-color:  rgb(31, 4, 31);
+}
+
+
+h1{
+   color: whitesmoke;
+   font-size: 20px;
+   text-align: center;
 }
 
 .pastas {
@@ -10,7 +30,17 @@ header {
      margin-top: 0.5rem;
      font-size: 16px;
      color: whitesmoke;
+   
   }
+
+  main{
+   font-size: 18px;
+   color: whitesmoke;
+}
+
+main ul li{
+   list-style-type: none;
+}
  a{
     font-size: 20px;
     color: whitesmoke;
@@ -18,10 +48,31 @@ header {
  }
   
  .estilos {
-    font-size: 20px;
+    font-size: 16px;
     color: whitesmoke;
+    list-style-type:none;
+    display: flex;
  }
 
 body {
-    background-color:rgb(7, 6, 23) ;
+    background-color:rgb(7, 6, 23);
+}
+
+footer{
+   background-color: rgb(31, 4, 31);
+   color: whitesmoke;
+   font-size: 12px;
+   text-align: center;
+   padding-top: 0.5rem;
+   padding-bottom: 0.5rem;
+   
+
+}
+
+ footer ul li{
+   list-style-type: none;
+}
+
+span{
+   text-align: center;
 }
